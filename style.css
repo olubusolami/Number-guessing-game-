@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before{
+  padding:0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica;
+}
+
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  gap: 2rem;
+  height:95vh;
+  
+}
+
+.hidden { 
+  display: none;
+}
+
+.login__container{
+  padding: 5rem;
+  border: .190rem solid blue;
+  border-radius:7px;
+}
+
+.heading{
+padding:5rem;
+border: .180rem solid black;
+border-radius:7px;
+color:blue;
+}
+.button__container{
+  padding-top:1rem;
+}
+
+.btn__generate--number{
+border: .180rem solid blue;
+border-radius:7px;
+padding: 1rem;
+background: rgb(0, 0, 180);
+color: white;
+}
